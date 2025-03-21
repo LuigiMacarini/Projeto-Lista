@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<header class="headerContainer">
+<h1 class="textHeader">Lista de Produtos</h1>
+<div>
+<button class="button">Calculadora</button>
+<button onclick="reset()" class="buttonHeader">Fechar lista</button>
+</div>
+</header>
+<body class="bodyContainer">
+    <h2 class="text">Adicionar Produtos</h2>
+    <input type="text" id="ProdutoNome" placeholder="Nome" class="inputs">
+    <input type="number" id="QuantidadeProduto" placeholder="Quantidade" class="inputs">
+    <button onclick="addProdutos()" class="button">Adicionar</button>
+
+    <h2 class="text">Lista dos Produtos</h2>
+    <div class="containerLista"> 
+        <ol id="ListaProdutos" class="listaProdutos"></ol>
+    </div>
+   
+    <div id="totalContainer" class="box">
+    <h3 id="TotalGeral" class="text"></h3>
+</div>
+    <script src="../scripts/pedidos.js"></script>
+</body>
+<footer class="footerContainer">
+   
+</footer>
+</html>
