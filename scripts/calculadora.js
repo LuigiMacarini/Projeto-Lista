@@ -1,3 +1,11 @@
-let inputA = 0;
-let inputB = 0;
-let operacao;
+const result = document.querySelector(".result");
+const buttons = document.querySelectorAll(".buttons"); 
+
+let Number = "";
+let firstOperator = "";
+let operator = "";
+let reset = "false";
+
+function replaceResult (){
+    result.innerText = originClear
+}
